@@ -1,13 +1,13 @@
 "alpha.CI" <-
-function (alpha, k, N, level=.95, onesided=TRUE)
+function (alpha, k, N, level=.90, onesided=FALSE)
  {
  if (!onesided) { 
- nomau <- (1 - level)/2
- nomal <- (level)/2 }
- else {
- nomau <- (1 - level)
- nomal <- (level) }
- df1 <- N-1
+    nomau <- (1 - level)/2
+    nomal <- 1-nomau }
+  else {
+     nomau <- (1 - level)
+     nomal <- (level) }
+df1 <- N-1
 df2 <- (k-1)*(N-1)
 Fl <- qf(nomal, df1, df2) 
 Fu <- qf(nomau, df1, df2)
