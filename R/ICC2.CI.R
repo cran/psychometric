@@ -12,9 +12,10 @@ require(multilevel)
  Fobs <- tmod[[1]][1,4]
  n <- df2/(df1+1) # k-1
  noma <- 1- level
- Ftab <- qf(noma/2, df1, df2, lower.tail=F)
- Fl <- Fobs/Ftab
- Fu <- Fobs*Ftab
+ Ftabl <- qf(noma/2, df1, df2, lower.tail=F)
+ Ftabu <- qf(noma/2, df2, df1, lower.tail=F)
+ Fl <- Fobs/Ftabl
+ Fu <- Fobs*Ftabu
  lcl <- 1-1/Fl
  ucl <- 1-1/Fu
  mat <- data.frame(LCL=lcl, ICC2=icc, UCL=ucl)
