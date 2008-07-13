@@ -27,8 +27,7 @@ The final object (if saved) will contain: \cr
  \item{moderator }{ moderator variable (if any)}
 }
 
-\author{Thomas D. Fletcher \email{FletcherT@umsl.edu} \cr
-\url{http://www.umsl.edu/~fletchert} }
+\author{Thomas D. Fletcher \email{tom.fletcher.mp7e@statefarm.com} }
 
 \note{ This is the general format required for data objects used for all the meta-analysis 
 functions in this package. If certain variables are empty (e.g., Rxx, u), then the appropriate

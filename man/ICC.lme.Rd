@@ -41,8 +41,7 @@ for data aggregation and analysis. In K. J. Klein & S. W. J. Kozlowski (Eds.),
 \emph{Multilevel theory, research, and methods in organizations: Foundations, extensions, 
 and new directions (pp. 349-381).} San Francisco: Jossey-Bass.
 }
-\author{ Thomas D. Fletcher \email{FletcherT@umsl.edu} \cr
-\url{http://www.umsl.edu/~fletchert} }
+\author{ Thomas D. Fletcher \email{tom.fletcher.mp7e@statefarm.com} }
 
 \note{ ICC1.lme and ICC2.lme should in principle be equal an ICC computed from a one-way ANOVA 
 only when the data are balanced (equal group sizes for all groups and no missing data). The ICC.lme

@@ -26,8 +26,7 @@ Discrimination index for each item in the data.frame or matrix analyzed.
 Allen, M. J. & Yen, W. M. (1979). \emph{Introduction to measurement theory.} Monterey, CA: Brooks/Cole.
 }
 
-\author{ Thomas D. Fletcher \email{FletcherT@umsl.edu} \cr
-\url{http://www.umsl.edu/~fletchert} }
+\author{ Thomas D. Fletcher \email{tom.fletcher.mp7e@statefarm.com} }
 
 \note{ \code{discrim} is used by \code{\link{item.exam}} \code{discrim} is especially useful for 
 dichotomously coded items such as correct/incorrect. If items are not dischotomously coded, the

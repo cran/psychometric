@@ -8,3 +8,6 @@ Changes in 0.1.1
 Changes in 0.1.2
 1. There was an error in the df of the calculation of the upper CI for ICC1 and ICC2
 
+Changes in 2.0
+1. My affiliation has changed from @umsl.edu to @statefarm.com
+2. Item.Exam() was updated to include item.total correlation without item included

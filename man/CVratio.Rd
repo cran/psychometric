@@ -35,8 +35,7 @@ Lawshe, C. H. (1975). A quantitative approach to content validity. \emph{Personn
 
 CVR = (Ne - N/2)/(N-1) }
 
-\author{ Thomas D. Fletcher \email{FletcherT@umsl.edu} \cr
-\url{http://www.umsl.edu/~fletchert} }
+\author{ Thomas D. Fletcher \email{tom.fletcher.mp7e@statefarm.com} }
 
 
 \examples{

@@ -6,12 +6,12 @@
   difficulty, discrimination, and reliability and validity indices.}
   
 \usage{
-item.exam(x, y = NULL, binary = FALSE)
+item.exam(x, y = NULL, discrim = FALSE)
 }
 \arguments{
   \item{x}{ matrix or  data.frame of items }
   \item{y}{ Criterion variable }
-  \item{binary}{ Whether the items are dichotomously coded}
+  \item{discrim}{ Whether or not the discrimination of item is to be computed}
 }
 \details{
   If someone is interested in examining the items of a dataset contained in data.frame x, and 
@@ -28,18 +28,19 @@ item.exam(x, y = NULL, binary = FALSE)
   A table with rows representing each item and columns repsenting :
   \item{Sample.SD }{ Standard deviation of the item}
   \item{Item.total }{ Correlation of the item with the total test score }
+  \item{Item.Tot.woi}{ Correlation of item with total test score (scored without item)}
   \item{Difficulty }{ Mean of the item (p) }
   \item{Discrimination }{ Discrimination of the item (u-l)/n }
   \item{Item.Criterion }{ Correlation of the item with the Criterion (y)}
   \item{Item.Reliab }{ Item reliability index}
+  \item{Item.Rel.woi }{ Item reliability index (scored without item) }
   \item{Item.Validity }{ Item validity index }
 }
 \references{ 
 Allen, M. J. & Yen, W. M. (1979). \emph{Introduction to measurement theory.} Monterey, CA: Brooks/Cole.
 }
 
-\author{ Thomas D. Fletcher \email{FletcherT@umsl.edu} \cr
-\url{http://www.umsl.edu/~fletchert} }
+\author{ Thomas D. Fletcher \email{tom.fletcher.mp7e@statefarm.com} }
 
 \note{ Most all text books suggest the point-biserial correlation for the item-total. 
 Since the point-biserial is equivalent to the Pearson r, the \code{cor} function is used 
@@ -47,7 +48,7 @@ to render the Pearson r for each item-total. However, it might be suggested that
 polyserial is more appropriate. For practical purposes, the Pearson is sufficient and is
 used here. \cr
 
-If binary = TRUE, then the discrimination index is computed and returned EVEN IF the items 
+If discrim = TRUE, then the discrimination index is computed and returned EVEN IF the items 
 are not dichotomously coded. The interpretation of the discrimination index is then suspect. 
 \code{\link{discrim}} computes the number of correct responses in the upper and lower groups by
 summation of the '1s' (correct responses). When data are continuous, the discrimination index
@@ -68,7 +69,7 @@ data(TestScores)
 # Look at the data
 TestScores
 # Examine the items
-item.exam(TestScores[,1:10], y = TestScores[,11], binary=TRUE)
+item.exam(TestScores[,1:10], y = TestScores[,11], discrim=TRUE)
 
 }
 

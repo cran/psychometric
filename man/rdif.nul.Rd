@@ -30,8 +30,7 @@ Cohen, J., Cohen, P., West, S. G., & Aiken, L. S. (2003).
 Mahwah, NJ: Lawrence Erlbaum.
 
 }
-\author{ Thomas D. Fletcher \email{FletcherT@umsl.edu} \cr
-\url{ http://www.umsl.edu/~fletchert} }
+\author{ Thomas D. Fletcher \email{tom.fletcher.mp7e@statefarm.com} }
 
 
 \note{ Does not test alternate hypotheses (e.g., difference = .1) }

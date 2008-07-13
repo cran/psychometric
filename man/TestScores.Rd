@@ -33,7 +33,7 @@ whereas others may be more useful for relating to external criteria. }
 \examples{
 data(TestScores)
 str(TestScores) 
-item.exam(TestScores[,1:10], y = TestScores[,11], binary=TRUE)
+item.exam(TestScores[,1:10], y = TestScores[,11], discrim=TRUE)
 alpha(TestScores[,1:10])
 }
 \keyword{datasets}

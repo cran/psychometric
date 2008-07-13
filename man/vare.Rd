@@ -40,9 +40,7 @@ Hunter, J.E., Schmidt, F.L., and Jackson, G.B. (1982). \emph{Meta-analysis:
 Cumulating research findings across studies.} Beverly Hills: Sage Publications.
 }
 
-\author{ Thomas D. Fletcher \email{FletcherT@umsl.edu} \cr
-\url{http://www.umsl.edu/~fletchert}}
-
+\author{ Thomas D. Fletcher \email{tom.fletcher.mp7e@statefarm.com} }
 \note{ The equations for each function are: \cr
 vare <- \eqn{sum(n*(1-rb^2)^2/(n-1),na.rm=T)/sum(n,na.rm=T)} \cr
 aprox.vare <- \eqn{(1-rb^2)^2/(mean(n, na.rm=T)-1)} \cr

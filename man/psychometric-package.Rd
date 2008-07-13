@@ -12,21 +12,25 @@ reliability, item analysis, inter-rater reliability, and classical utility}
 \tabular{ll}{
 Package: \tab psychometric \cr
 Type: \tab Package \cr
-Version: \tab 0.1.0 \cr
-Date: \tab 2006-08-09 \cr
+Version: \tab 2.0 \cr
+Date: \tab 2008-07-13 \cr
 License: \tab GPL (version 2.0 or later) \cr
 }
 
 This package corresponds to the basic concepts encountered in an introductory course in 
 Psychometric Theory at the Graduate level. It is especially useful for Industrial/Organizational
-Psychologists, but will be useful for any student or practitioner of psychometric theory. Concepts 
-covered in this package are illustrated in PSYC 7429 at the University of MO - St. Louis course in 
-Psychometric Theory.
+Psychologists, but will be useful for any student or practitioner of psychometric theory. I originally
+developed this package to correspond with concepts covered illustrated in PSYC 7429 at the 
+University of MO - St. Louis course in Psychometric Theory.
 }
 \author{
 
-Maintainer: Thomas D. Fletcher \email{FletcherT@umsl.edu} \cr
-\url{http://www.umsl.edu/~fletchert}
+
+Thomas D. Fletcher\cr
+Strategic Resources\cr
+State Farm Insurance Cos.\cr
+
+Maintainer: Thomas D. Fletcher \email{tom.fletcher.mp7e@statefarm.com} \cr
 }
 \references{
 
@@ -56,6 +60,6 @@ ClassUtil(rxy=.5, BR=.5, SR=.5)
 
 # Examine test score items
 data(TestScores)
-item.exam(TestScores[,1:10], y = TestScores[,11], binary=TRUE)
+item.exam(TestScores[,1:10], y = TestScores[,11], discrim=TRUE)
 
 }

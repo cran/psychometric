@@ -34,8 +34,7 @@ Cohen, J., Cohen, P., West, S. G., & Aiken, L. S. (2003).
 Mahwah, NJ: Lawrence Erlbaum.
 
 }
-\author{ Thomas D. Fletcher \email{FletcherT@umsl.edu} \cr
-\url{http://www.umsl.edu/~fletchert}}
+\author{ Thomas D. Fletcher \email{tom.fletcher.mp7e@statefarm.com} }
 
 \note{ Do not confuse this function with the meta-analysis function cRR in this same package! 
 
