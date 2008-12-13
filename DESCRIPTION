@@ -1,8 +1,8 @@
 Package: psychometric
 Type: Package
 Title: Applied Psychometric Theory 
-Version: 2.0
-Date: 2008-07-13
+Version: 2.1
+Date: 2008-012-13
 Author: Thomas D. Fletcher
 Maintainer: Thomas D. Fletcher <tom.fletcher.mp7e@statefarm.com>
 Description: Contains functions useful for correlation theory, 
@@ -12,4 +12,4 @@ Description: Contains functions useful for correlation theory,
 Depends: multilevel, nlme, R(>= 2.3.0)
 Imports: multilevel, nlme
 License: GPL (version 2 or later)
-Packaged: Sun Jul 13 10:21:29 2008; Default
+Packaged: Sun Dec 14 09:08:33 2008; Tom Fletcher

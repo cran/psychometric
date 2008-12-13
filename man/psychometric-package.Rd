@@ -12,8 +12,8 @@ reliability, item analysis, inter-rater reliability, and classical utility}
 \tabular{ll}{
 Package: \tab psychometric \cr
 Type: \tab Package \cr
-Version: \tab 2.0 \cr
-Date: \tab 2008-07-13 \cr
+Version: \tab 2.1 \cr
+Date: \tab 2008-012-13 \cr
 License: \tab GPL (version 2.0 or later) \cr
 }
 

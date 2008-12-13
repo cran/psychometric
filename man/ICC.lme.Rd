@@ -19,7 +19,7 @@ ICC2.lme(dv, grp, data, weighted = FALSE)
 
 }
 \details{
-First a lme() model is computed from the data. Then ICC1 is computed as \eqn{(t00/(t00 + siqma^2)},
+First a lme() model is computed from the data. Then ICC1 is computed as \eqn{t00/(t00 + siqma^2)},
 where t00 is the variance in intercept of the model and \eqn{sigma^2} is the residual variance for 
 the model. The ICC2 is computed by computing the ICC2 for each group \eqn{t00/(t00 + sigma^2/nj)} 
 where nj is the size of group j. The mean across all groups is then taken to be the ICC2. 

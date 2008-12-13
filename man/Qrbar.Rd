@@ -43,7 +43,7 @@ Cumulating research findings across studies.} Beverly Hills: Sage Publications.
 
 
 \note{
-\code{Qrbar} is computed as: \eqn{sum((((n-1)*(r-rb)^2)/(1-rb^2)^2),na.rm=T)} \cr
+\code{Qrbar} is computed as: \eqn{sum((((n-1)*(r-rb)^2)/(1-rb^2)^2),na.rm=TRUE)} \cr
 \code{aprox.Qrbar} is computed as:  \eqn{(N/(1-rb^2)^2)*vr}
 
 where n is sample size of study i, N is total sample size across studies, 

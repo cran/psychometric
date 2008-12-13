@@ -42,8 +42,8 @@ Cumulating research findings across studies.} Beverly Hills: Sage Publications.
 
 \author{ Thomas D. Fletcher \email{tom.fletcher.mp7e@statefarm.com} }
 \note{ The equations for each function are: \cr
-vare <- \eqn{sum(n*(1-rb^2)^2/(n-1),na.rm=T)/sum(n,na.rm=T)} \cr
-aprox.vare <- \eqn{(1-rb^2)^2/(mean(n, na.rm=T)-1)} \cr
+vare <- \eqn{sum(n*(1-rb^2)^2/(n-1),na.rm=TRUE)/sum(n,na.rm=TRUE)} \cr
+aprox.vare <- \eqn{(1-rb^2)^2/(mean(n, na.rm=TRUE)-1)} \cr
 vare36 <- \eqn{((1-rb^2)^2*k)/T}  where k is number of studies and T is total sample size
 
 These are only presented here for completeness. The recommended equation is \code{vare}. 

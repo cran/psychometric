@@ -25,7 +25,7 @@ cRR(x)
 \item{aRxx }{ Distribution of measurement error in the predictor: a = sqrt(Rxx)}
 \item{bRyy }{ Distribution of measurement error in the criterion: b = sqrt(Ryy)}
 \item{cRR }{ Degree of range restriction indicated by ratio u \cr
-(restricted SD/unrestricted SD): \eqn{c = sqrt((1-u^2)*rb^2+u^2) }}
+(restricted SD/unrestricted SD): \eqn{c = sqrt((1-u^2)*rb^2+u^2) }. }
 
 These are used in the computation of the compound attentuation factor \code{\link{CAFAA}} = 
 mean(a)*mean(b)*mean(c).
