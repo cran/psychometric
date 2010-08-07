@@ -17,3 +17,6 @@ Changes in 2.1
 2. an extra '(' was removed from the help file description of ICC1.lme()
 3. a grammar error was corrected in help file for cRR() resulting in error in reading in newer versions.
 
+Changes in 2.2
+1. revised help and Rd files 
+2. re-compiled to work under R 2.11.1

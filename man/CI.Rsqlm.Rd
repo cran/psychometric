@@ -18,8 +18,7 @@ CI.Rsqlm(obj, level = 0.95)
     \item{Rsq }{ Squared Multiple Correlation}
     \item{SErsq }{ Standard error of Rsq}
     \item{LCL }{ Lower Confidence Limit of the CI}
-    \item{UCL }{ Upper Confidence Limit of the CI}}
-
+    \item{UCL }{ Upper Confidence Limit of the CI}
 }
 \references{ 
 Olkin, I. & Finn, J. D. (1995). Correlation Redux. \emph{Psychological Bulletin, 118}, 155-164.

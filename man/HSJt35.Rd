@@ -8,15 +8,15 @@
 \usage{data(HSJt35)}
 \format{
   A data frame with 8 observations on the following 7 variables.
-  
-    \item{\code{study}}{ Study code}
-    \item{\code{Rxy}}{ Published correlation}
-    \item{\code{n}}{ Sample size}
-    \item{\code{Rxx}}{ Reliability of predictor}
-    \item{\code{Ryy}}{ Reliability of criterion}
-    \item{\code{u}}{ Range Restriction Ratio}
-    \item{\code{moderator}}{ none <na>} 
-  } 
+  \itemize{
+    \item \emph{study} Study code
+    \item \emph{Rxy} Published correlation
+    \item \emph{n} Sample size
+    \item \emph{Rxx} Reliability of predictor
+    \item \emph{Ryy} Reliability of criterion
+    \item \emph{u} Range Restriction Ratio
+    \item \emph{moderator} none <na> 
+  }} 
 
 \details{
 This example has been replicated a number of times (e.g., Hunter & Schmidt, 2004). 
@@ -24,7 +24,6 @@ It is useful in illustrating the basic concepts of validity generalization.
 The data can be used to demonstrate bare-bones MA as well as correction for artifacts.
 This data format is the format necessary for the R functions in the psychometric package.
 
-}
 }
 \references{
 Hunter, J.E. and Schmidt, F.L. (2004). \emph{Methods of meta-analysis: 

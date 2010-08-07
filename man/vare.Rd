@@ -6,8 +6,9 @@
 \title{ Sampling Error Variance}
 \description{
   Computes sampling error variance in correlations from a data object of the general format found in 
-  \code{\link{EnterMeta}}}
-}
+  \code{\link{EnterMeta}}
+  }
+
 \usage{
 vare(x)
 aprox.vare(x)

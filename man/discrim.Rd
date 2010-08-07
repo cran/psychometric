@@ -32,7 +32,7 @@ Allen, M. J. & Yen, W. M. (1979). \emph{Introduction to measurement theory.} Mon
 dichotomously coded items such as correct/incorrect. If items are not dischotomously coded, the
 interpretation of \code{discrim} has less meaning. }
 
- }
+ 
 \seealso{ \code{\link{item.exam}} }
 
 \examples{

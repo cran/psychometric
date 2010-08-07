@@ -13,7 +13,7 @@ r.nil(r, n)
   \item{n}{ Sample Size}
 }
 
-}
+
 \value{
 Returns a table with 4 elements
   \item{\dQuote{H0:rNot0}}{ correlation to be tested}

@@ -10,14 +10,15 @@
 \usage{data(ABHt32)}
 \format{
   A data frame with 10 observations on the following 7 variables.
-    \item{\code{study}}{ Study code} 
-    \item{\code{Rxy}}{ Published Correlation}
-    \item{\code{n}}{ Sample Size}
-    \item{\code{Rxx}}{ Reliability of Predictor}
-    \item{\code{Ryy}}{ Reliability of Criterion}
-    \item{\code{u}}{ Range Restriction Ratio}
-    \item{\code{moderator}}{ Gender}
-  } 
+  \itemize{
+    \item \emph{study} Study code
+    \item \emph{Rxy} Published Correlation
+    \item \emph{n} Sample Size
+    \item \emph{Rxx} Reliability of Predictor
+    \item \emph{Ryy} Reliability of Criterion
+    \item \emph{u} Range Restriction Ratio
+    \item \emph{moderator} Gender
+  }} 
 
 \references{
   Arthur, Jr., W., Bennett, Jr., W., and Huffcutt, A. I. (2001) 

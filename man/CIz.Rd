@@ -9,13 +9,13 @@
 \usage{
 CIz(z, n, level = 0.95)
 }
+
 \arguments{
   \item{z}{ Fishers z'}
   \item{n}{ Sample Size }
   \item{level}{ Significance Level for constructing the CI, default is .95}
 }
 
-}
 \value{
   \item{LCL }{ Lower Confidence Limit of the CI}
   \item{UCL }{ Upper Confidence Limit of the CI}
