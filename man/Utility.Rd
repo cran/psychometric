@@ -47,7 +47,7 @@ applications (5th ed.).} Saddle River, NJ: Prentice Hall.
 
 }
 
-\author{ Thomas D. Fletcher \email{tom.fletcher.mp7e@statefarm.com} }
+\author{ Thomas D. Fletcher \email{t.d.fletcher05@gmail.com} }
 
 
 \note{ Computation for marginal and total utility are:  

@@ -24,7 +24,7 @@ Cohen, J., Cohen, P., West, S. G., & Aiken, L. S. (2003).
 Mahwah, NJ: Lawrence Erlbaum.
   }
 
-\author{ Thomas D. Fletcher \email{tom.fletcher.mp7e@statefarm.com} }
+\author{ Thomas D. Fletcher \email{t.d.fletcher05@gmail.com} }
 
 \seealso{ 
 	\code{\link{r2z}}, 

@@ -45,7 +45,7 @@ Reading, MA: Addison-Wesley.
 
 Nunnally, J. C. & Bernstein, I. H. (1994). \emph{Psychometric Theory (3rd ed.).} New York: McGraw-Hill.
 }
-\author{ Thomas D. Fletcher \email{tom.fletcher.mp7e@statefarm.com} }
+\author{ Thomas D. Fletcher \email{t.d.fletcher05@gmail.com} }
 
 \note{ Since strictly parallel tests have the same SD, s and sy are equivalent in these functions. 
 SE.Meas() is used by \code{\link{CI.obs}}. SE.Est() is used by \code{\link{CI.tscore}}. You must use 

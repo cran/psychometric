@@ -25,7 +25,7 @@ the model. The ICC2 is computed by computing the ICC2 for each group \eqn{t00/(t
 where nj is the size of group j. The mean across all groups is then taken to be the ICC2. 
 However, one can specify that the mean should be weigted by group size such that larger groups 
 are given more weight. The calculation of the individual group ICC2 is done by Bliese's 
-\code{\link[multilevel]{GmeanRel}} function. An alternate specification not used here, 
+\code{\link[multilevel]{gmeanrel}} function. An alternate specification not used here, 
 but sometimes seen in the literature for ICC2 is to use the formula above for the total data 
 set, but replace nj with the average group size. This is the method used in Bliese's 
 \code{\link[multilevel]{mult.icc}}. 
@@ -41,7 +41,7 @@ for data aggregation and analysis. In K. J. Klein & S. W. J. Kozlowski (Eds.),
 \emph{Multilevel theory, research, and methods in organizations: Foundations, extensions, 
 and new directions (pp. 349-381).} San Francisco: Jossey-Bass.
 }
-\author{ Thomas D. Fletcher \email{tom.fletcher.mp7e@statefarm.com} }
+\author{ Thomas D. Fletcher \email{t.d.fletcher05@gmail.com} }
 
 \note{ ICC1.lme and ICC2.lme should in principle be equal an ICC computed from a one-way ANOVA 
 only when the data are balanced (equal group sizes for all groups and no missing data). The ICC.lme
@@ -54,7 +54,7 @@ The warning states that the following variables ... are masked. This is because 
 attaches the data and then detaches it within the function. } 
 
 
-\seealso{ \code{\link{ICC.CI}}, \code{\link[multilevel]{mult.icc}}, \code{\link[multilevel]{GmeanRel}} }
+\seealso{ \code{\link{ICC.CI}}, \code{\link[multilevel]{mult.icc}}, \code{\link[multilevel]{gmeanrel}} }
 
 \examples{
 

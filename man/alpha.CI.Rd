@@ -33,7 +33,7 @@ Feldt, L. S., Woodruff, D. J., & Salih, F. A. (1987).
 Statistical inferences for coefficient alpha. \emph{Applied Psychological Measurement, 11,} 93-103. 
 }
 
-\author{ Thomas D. Fletcher \email{tom.fletcher.mp7e@statefarm.com}}
+\author{ Thomas D. Fletcher \email{t.d.fletcher05@gmail.com}}
 
 \note{ Feldt et al., provide a number of procedures for making inferences about alpha
 (e.g., F test of the null hypothesis). Since the CI is the most versatile, it is the only function

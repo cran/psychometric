@@ -30,7 +30,7 @@ When the obs score is much lower than the mean, that > obs
 Dudek, F. J. (1979). The continuing misinterpretation of the standard error of measurement. 
 \emph{Psychological Bulletin, 86}, 335-337.
 }
-\author{ Thomas D. Fletcher \email{tom.fletcher.mp7e@statefarm.com} }
+\author{ Thomas D. Fletcher \email{t.d.fletcher05@gmail.com} }
 
 
 \seealso{ \code{\link{CI.tscore}}, \code{\link{SE.Est}} }

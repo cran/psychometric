@@ -1,3 +1,13 @@
 exportPattern("^[^\\.]")
 
-import(multilevel, nlme)
+import(multilevel, dplyr)
+
+importFrom("purrr", "reduce")
+
+importFrom("utils", "edit")
+
+importFrom("nlme", "VarCorr", "lme")
+
+importFrom("graphics", "abline")
+    importFrom("stats", "aov", "cor", "na.exclude", "na.omit", "pchisq",
+               "pnorm", "pt", "qf", "qnorm", "sd", "var", "weighted.mean")

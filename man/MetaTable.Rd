@@ -37,7 +37,7 @@ Hunter, J.E., Schmidt, F.L., and Jackson, G.B. (1982). \emph{Meta-analysis:
 Cumulating research findings across studies.} Beverly Hills: Sage Publications.
 }
 
-\author{ Thomas D. Fletcher \email{tom.fletcher.mp7e@statefarm.com} }
+\author{ Thomas D. Fletcher \email{t.d.fletcher05@gmail.com} }
 
 
 

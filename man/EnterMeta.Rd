@@ -27,7 +27,7 @@ The final object (if saved) will contain: \cr
  \item{moderator }{ moderator variable (if any)}
 }
 
-\author{Thomas D. Fletcher \email{tom.fletcher.mp7e@statefarm.com} }
+\author{Thomas D. Fletcher \email{t.d.fletcher05@gmail.com} }
 
 \note{ This is the general format required for data objects used for all the meta-analysis 
 functions in this package. If certain variables are empty (e.g., Rxx, u), then the appropriate
@@ -43,6 +43,8 @@ elsewhere (e.g., Excel)}
 
 \examples{
 
-# my.data <- EnterMeta()
+\donttest{
+my.data <- EnterMeta()
+}
 }
 \keyword{ manip }

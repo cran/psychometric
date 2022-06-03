@@ -28,7 +28,7 @@ Cronbach, L. J. (1951). Coefficient alpha and the internal structure of tests.
 
 }
 
-\author{Thomas D. Fletcher \email{tom.fletcher.mp7e@statefarm.com} }
+\author{Thomas D. Fletcher \email{t.d.fletcher05@gmail.com} }
 
 
 \seealso{ \code{\link{alpha.CI}} }

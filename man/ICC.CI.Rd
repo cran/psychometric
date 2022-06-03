@@ -44,7 +44,7 @@ for data aggregation and analysis. In K. J. Klein & S. W. J. Kozlowski (Eds.),
 and new directions (pp. 349-381).} San Francisco: Jossey-Bass.
 }
 
-\author{ Thomas D. Fletcher \email{tom.fletcher.mp7e@statefarm.com}}
+\author{ Thomas D. Fletcher \email{t.d.fletcher05@gmail.com}}
 
 
 \seealso{  \code{\link{ICC.lme}}, \code{\link[multilevel]{ICC1}}, \code{\link[multilevel]{ICC2}} }

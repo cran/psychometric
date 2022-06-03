@@ -37,7 +37,7 @@ CI.obs(obs, s, rxx, level = 0.95)
 Dudek, F. J. (1979). The continuing misinterpretation of the standard error of measurement. 
 \emph{Psychological Bulletin, 86}, 335-337. }
 
-\author{ Thomas D. Fletcher \email{tom.fletcher.mp7e@statefarm.com} }
+\author{ Thomas D. Fletcher \email{t.d.fletcher05@gmail.com} }
 
 \note{ It is not in error to report any one of these. The misinterpretation is in taking the observed
 score and making inferences about the true score without (1) using the correct standard error and (2) 

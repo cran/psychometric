@@ -40,7 +40,7 @@ N <- rxxp*(1-rxx)/(rxx*(1-rxxp))
 \references{
 Allen, M. J. & Yen, W. M. (1979). \emph{Introduction to measurement theory.} Monterey, CA: Brooks/Cole.
 }
-\author{ Thomas D. Fletcher \email{tom.fletcher.mp7e@statefarm.com} }
+\author{ Thomas D. Fletcher \email{t.d.fletcher05@gmail.com} }
 
 \seealso{ \code{\link{alpha}} }
 \examples{

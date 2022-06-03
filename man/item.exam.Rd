@@ -40,7 +40,7 @@ item.exam(x, y = NULL, discrim = FALSE)
 Allen, M. J. & Yen, W. M. (1979). \emph{Introduction to measurement theory.} Monterey, CA: Brooks/Cole.
 }
 
-\author{ Thomas D. Fletcher \email{tom.fletcher.mp7e@statefarm.com} }
+\author{ Thomas D. Fletcher \email{t.d.fletcher05@gmail.com} }
 
 \note{ Most all text books suggest the point-biserial correlation for the item-total. 
 Since the point-biserial is equivalent to the Pearson r, the \code{cor} function is used 

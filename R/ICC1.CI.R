@@ -1,10 +1,11 @@
 "ICC1.CI" <-
 function (dv, iv, data, level=.95)
  {
-require(multilevel)
- attach(data)
- mod <- aov(dv ~ as.factor(iv), na.action=na.omit)
- detach(data)
+dv <- data %>% dplyr::select({{dv}}) %>% purrr::reduce(c)
+iv <- data %>% dplyr::select({{iv}}) %>% purrr::reduce(c) %>% factor()
+
+ mod <- aov(dv ~ iv, na.action=na.omit)
+
  icc <- ICC1(mod)
  tmod <- summary(mod)
  df1 <- tmod[[1]][1,1]
