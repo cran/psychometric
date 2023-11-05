@@ -43,8 +43,6 @@ elsewhere (e.g., Excel)}
 
 \examples{
 
-\donttest{
-my.data <- EnterMeta()
-}
+# my.data <- EnterMeta()
 }
 \keyword{ manip }

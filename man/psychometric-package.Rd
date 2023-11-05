@@ -6,20 +6,17 @@
 \title{
 Applied Psychometric Theory}
 \description{
-Provides tools useful for measurement theory (Allen & Yen 2001)<ISBN: 157766230X>, 
-meta-analysis (validity-generalization) (Schmidt & Hunter)<doi:10.4135/9781483398105>, reliability, 
-item analysis, inter-rater reliability, classical utility,
-and correlation analysis  (Cohen et. al. 2003)<doi:10.4324/9780203774441> }
+Contains functions useful for correlation theory, meta-analysis (validity-generalization), 
+reliability, item analysis, inter-rater reliability, and classical utility}
 \details{
 \tabular{ll}{
 Package: \tab psychometric \cr
 Type: \tab Package \cr
-Version: \tab 2.3 \cr
-Date: \tab 2022-05-27 \cr
+Version: \tab 2.4 \cr
 License: \tab GPL (version 2.0 or later) \cr
 }
 
-The tools in this package correspond to  basic concepts encountered in an introductory course in 
+This package corresponds to the basic concepts encountered in an introductory course in 
 Psychometric Theory at the Graduate level. It is especially useful for Industrial/Organizational
 Psychologists, but will be useful for any student or practitioner of psychometric theory. I originally
 developed this package to correspond with concepts covered illustrated in PSYC 7429 at the 
@@ -29,6 +26,8 @@ University of MO - St. Louis course in Psychometric Theory.
 
 
 Thomas D. Fletcher\cr
+Strategic Resources\cr
+State Farm Insurance Cos.\cr
 
 Maintainer: Thomas D. Fletcher \email{t.d.fletcher05@gmail.com} \cr
 }

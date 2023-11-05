@@ -1,4 +1,4 @@
-# Applied Psychometric Theory
+# READ ME
 
 The following changes have been made since version 0.1.0 of Applied Psychometric Theory
 
@@ -23,8 +23,10 @@ Changes in 2.2
 1. revised help and Rd files 
 2. re-compiled to work under R 2.11.1
 
-Changes to v. 2.3
+Changes in 2.3
 1. changed affiliation to @gmail.com 
 2. used both purrr and dplyr functions to replace attach/detach of data
 3. updated function "GmeanRel" from nlme to "gmeanrel" - a dependency for functions ICC1, ICC2
-4. re-compiled to work under R 4.2.0
+
+Changes in 2.4
+1. label items standardized for compatibility with R 4.3.0 

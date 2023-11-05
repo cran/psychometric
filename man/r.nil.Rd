@@ -16,7 +16,9 @@ r.nil(r, n)
 
 \value{
 Returns a table with 4 elements
-  \item{\dQuote{H0:rNot0}}{ correlation to be tested}
+  \describe{
+  \item{H0:rNot0}{correlation to be tested}
+}
   \item{t }{ t value for the H0}
   \item{df }{ degrees of freedom}
   \item{p }{ p value}
